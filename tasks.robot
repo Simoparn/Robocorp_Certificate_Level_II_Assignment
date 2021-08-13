@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-#TODO: log files to output folder instead of root
 *** Settings ***
 Documentation   Certificate level II, Simo Pärnänen.
 ...             Saves the order HTML receipt as a PDF file.
