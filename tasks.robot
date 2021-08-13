@@ -107,7 +107,7 @@ Insert The Order Data And Save Receipts As PDF With Embedded Screenshots And Zip
     Open The RobotSpareBin Order Website    
     Close The Annoying Modal 
     Order Robots From RobotSpareBin Industries Inc
-    Archive Folder With Zip    ${CURDIR}${/}output${/}receipts    receipts.zip
+    Archive Folder With Zip    ${CURDIR}${/}output${/}receipts    ${CURDIR}${/}output${/}receipts.zip
     ${secret}=  Get Secret    vaultinfo
     Log To Console    ${secret}[vaultinfotitle]
     Log To Console    ${secret}[vaultinfofull]  
